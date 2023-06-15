@@ -1,0 +1,130 @@
+:root {
+    /* Font */
+    --primary-font: Roboto, sans-serif;
+    --secondary-font: Raleway, sans-serif;
+    /* Colors */
+    --main-cl: #434455;
+    --main-title-cl: #2E2F42;
+    --hero-cl: #FFFFFF;
+    --footer-cl: #F4F4FD;
+    --main-dark-bg:#2E2F42;
+    --header-bg: #E7E9FC;
+    --main-logo-cl: #4D5AE5;
+}
+
+body {
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 400;
+    color: var(--main-cl);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* Reset */
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.hero-btn {
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #404BBF;
+}
+
+.logo {
+    color: var(--main-logo-cl);
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.logo-part {
+    color: var(--main-title-cl);
+}
+
+.page-nav .link{
+    font-weight: 500;
+    color: var(--main-title-cl);
+}
+
+.contacts .link:hover,
+.contacts .link:focus,
+.page-nav .link:hover,
+.page-nav .link:focus {
+    color: #404BBF;
+
+}
+
+.contacts {
+    font-style: normal;
+}
+
+
+
+
+.section-hero {
+    background-color: var(--main-dark-bg);
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: var(--hero-cl);
+}
+
+.hero-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--hero-cl);
+    background-color: var(--main-logo-cl);
+}
+
+.subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--main-title-cl);
+}
+
+.doing-title {
+    font-weight: 700;
+    font-size: 36px;
+    color: var(--main-title-cl);
+    line-height: 1.11;
+}
+
+.our-team {
+    background-color: #F4F4FD;
+}
+
+.our-team-title {
+    font-size: 36px;
+    line-height: 1.1;
+    color: var(--main-title-cl);
+}
+
+.footer {
+    background-color: #2E2F42;
+    color: var(--footer-cl);
+}
+
+.logo-part-footer {
+    color: var(--footer-cl);
+}
