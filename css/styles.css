@@ -32,6 +32,22 @@ body {
     color: currentColor;
 }
 
+.btn {
+    font-family: inherit;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--main-logo-cl);
+    background-color: var(--header-bg);
+}
+
+.btn:hover,
+.btn:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
 .hero-btn {
     font-family: inherit;
     cursor: pointer;
