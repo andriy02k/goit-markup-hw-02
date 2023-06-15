@@ -37,7 +37,7 @@ body {
 }
 
 .btn {
-    font-family: inherit;
+    font-family: Roboto, sans-serif;
     cursor: pointer;
     font-style: normal;
     font-weight: 500;
