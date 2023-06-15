@@ -44,7 +44,8 @@ body {
     font-size: 16px;
     line-height: 1.5;
     color: var(--main-logo-cl);
-    background-color: var(--header-bg);
+    background-color: var(--footer-cl);
+    letter-spacing: 0.04em;
 }
 
 .btn:hover,
@@ -126,6 +127,7 @@ letter-spacing: 0.02em;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     color: var(--main-title-cl);
 }
 
@@ -149,7 +151,6 @@ letter-spacing: 0.02em;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    letter-spacing: 0.02em;
 }
 
 .card-bg {
@@ -158,6 +159,8 @@ letter-spacing: 0.02em;
 
 .text {
     font-size: 16px;
+    letter-spacing: 0.02em;
+    color: var(--main-cl);
 }
 
 .footer {
