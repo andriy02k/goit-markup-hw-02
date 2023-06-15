@@ -23,6 +23,10 @@ body {
 }
 
 /* Reset */
+.page {
+    background-color: var(--hero-cl)
+}
+
 .list {
     list-style: none;
 }
@@ -102,6 +106,7 @@ body {
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: var(--hero-cl);
+    text-align: center;
 }
 
 .hero-btn {
@@ -110,6 +115,11 @@ body {
     line-height: 1.5;
     color: var(--hero-cl);
     background-color: var(--main-logo-cl);
+    letter-spacing: 0.04em
+}
+
+.hidden-section {
+letter-spacing: 0.02em;
 }
 
 .subtitle {
@@ -124,6 +134,8 @@ body {
     font-size: 36px;
     color: var(--main-title-cl);
     line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
 }
 
 .our-team {
@@ -132,8 +144,20 @@ body {
 
 .our-team-title {
     font-size: 36px;
-    line-height: 1.1;
+    line-height: 1.11;
     color: var(--main-title-cl);
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    letter-spacing: 0.02em;
+}
+
+.card-bg {
+    background-color: #FFFFFF;
+}
+
+.text {
+    font-size: 16px;
 }
 
 .footer {
